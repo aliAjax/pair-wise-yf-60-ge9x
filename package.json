@@ -8,7 +8,8 @@
     "build": "vinxi build",
     "start": "vinxi start --host 0.0.0.0 --port 62025",
     "preview": "vinxi start --host 0.0.0.0 --port 62025",
-    "check": "tsc --noEmit"
+    "check": "tsc --noEmit",
+    "test": "node scripts/run-tests.mjs"
   },
   "dependencies": {
     "@ark-ui/solid": "^5.39.2",
